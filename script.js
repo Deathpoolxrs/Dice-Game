@@ -6,6 +6,7 @@ function randnum(){
     dice= randomnum
 }
 randnum();
+document.querySelectorAll('img')[0].setAttribute('src','assets/num.png')
 
 function getrandnum(){
     return Math.floor(Math.random()*6) + 1
